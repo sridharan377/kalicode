@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<head>
+    <title>ACN | Registration Form</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel = "stylesheet" type="text/css" href="style.css">
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            
+        }
+		label{
+		width: 100px;
+		display:inline-table;
+	}
+	nav ul li a{
+            text-decoration: none; 
+            color: white; 
+            font-family: Courier New; 
+            font-size: 24px;
+        }
+        nav ul li a:hover{
+          color:rgb(0, 0, 0);
+        }
+        hr { 
+          display: block;
+          margin-top: 0.5em;
+          margin-bottom: 0.5em;
+          margin-left: auto;
+          margin-right: auto;
+          border-style: inset;
+          border-width: 1px;
+        } 
+    </style>  
+</head>
+
+<body>
+    <div class = "container">
+        <div class = "navbar">
+            <a href="Home page.html"><img src="Amrita-vishwa-vidyapeetham-color-logo.png" style="display: flex; width: 90%; height: 70;" alt="Amrita-logo"></a>
+            <nav>
+                <ul>
+                    <li> <a href="ACN.html"><button type="button">Home</a></button></li>
+                    <li><a href="Info.html"><button type="button">Info</a></button></li>
+                    <li><a href="Events.html"><button type="button">Events</a></button></li>
+                    <li><a href="Register.html"><button type="button">Register</a></button></li>&nbsp;&nbsp;&nbsp;&nbsp;
+                </ul>
+            </nav>
+        </div>
+		<hr>
+  <h2 align="center">REGISTER NOW - CYBER NATION 2022</h2><br>
+
+  <table  align="center" style="background:radial-gradient(rgb(234, 230, 231), rgb(255, 255, 255)); padding:25px; margin: auto;">
+  <form align="left" action = "login.php" method = "post">
+	<tr>
+	<td>
+	<label for = "name"> FULL NAME </label>
+	<input type = "text" name = "name" placeholder="Enter name" minlength = "5" id = "name" required />
+	<br><br>
+
+	<label for = "phone"> PHONE : </label>
+	<input type = "text"  name = "Phone" placeholder="Enter phone number" id = "phone" pattern = [0-9]{10} />
+	<br><br>
+
+	<label for = "E-Mail"> E-MAIL ID : </label>
+	<input type = "text" name = "E-Mail" placeholder="example@gmail.com" id = "E-Mail" />
+	<br><br>
+	<label fro ="password">PASSWORD : </label>
+	<input type="text" name="password" id="PASSWORD" required />
+	<br><br>
+<label fro =" CONFIRM password"> CONFIRM PASSWORD : </label>
+	<input type="text" name=" CONFIRMpassword" id="CONFIRM pattern=[a - z] PASSWORD" required />
+	<br><br>
+
+	<label for ="COLLEGE"> COLLEGE : </label>
+	<input type = "text" name="college"  id ="college" required/>
+	<br><br>
+	
+
+	
+	<label for = "EVENTS"> EVENTS: </label><br>
+		     <input type="checkbox" name="event" id="HACKTHON">
+			     <label for="HACKTHON"> HACKTHON </label><br>
+	         <input type="checkbox" name="department" id="CYBER CONCLAVE"
+			     <label for="CYBER CONCLAVE"> CYBER CONCLAVE </label><br>
+			 <input type="checkbox" name="department" id="CYBER INDUSTRY MEET"
+			     <label for="CYBER INDUSTRY MEET"> CYBER INDUSTRY MEET</label><br>
+             <input type="checkbox" name="department" id="CAPTURE THE FLAG"
+			     <label for="CAPTURE THE FLAG"> CAPTURE THE FLAG</label><br><br>
+
+
+	<label for = "country"> COUNTRY OF ORIGIN : </label>
+	 <select name ="country" id ="country">
+	  <option value = "India" default>INDIA </option>
+	  <option value = "Pakistan">PAKISTAN</option>
+	  <option value = "Sri-lanka">SRI-LANKA</option>
+	  <option value="china" >CHINA</option>
+	  <option value ="nepal" > NEPAL</option>
+	  <option value =" america">AMERICA</option>
+	  <option value ="uk" > UK</option>
+	  </select>
+	<br><br>
+</td>
+
+<td  colrow="10">
+	SELECT DEPARTMENT :
+	<br><br>                     
+	<input type = "radio" name = "dept" id = "cse">
+	<label for = "cse"> CSE </label>
+	
+	<input type = "radio" name = "dept" id = "cys">
+	<label for = "cys"> CYS </label>
+	
+	<input type = "radio" name = "dept" id = "ai">
+	<label for = "ai"> AI</label>
+    <br>
+	<input type = "radio" name = "dept" id = "ece">
+	<label for = "ece"> ECE </label>
+	
+	<input type = "radio" name = "dept" id = "cce">
+	<label for = "cce"> CCE </label>	
+	
+	<input type = "radio" name = "dept" id = "eee">
+	<label for = "mec"> EEE </label>
+	
+
+	<br><br>
+
+	EVENTS : 
+	<br><br>
+	<input type = "checkbox" name = "course" id = "Conclave">
+	<label for = "Conclave">  CYBER CONCLAVE</label>
+	
+	<input type = "checkbox" name = "course" id = "Meet">
+	<label for = "Meet">INDUSTRY MEET </label>
+	
+	<input type = "checkbox" name = "course" id = "fest">
+	<label for = "fest"> CYBER TECH FEST'22 </label>
+	<br><br>
+
+	
+</td>
+</tr>
+	
+<tr>
+<td align = "center" colspan="2">
+	
+	<a href="ACN.html" button>submit</button>
+	 <button> reset </button>&nbsp;&nbsp;&nbsp;
+</td>
+</tr>
+</form>
+</table>
+</body>
+</html>

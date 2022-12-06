@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<head>
+    <title>ACN | Info</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel = "stylesheet" type="text/css" href="style.css">
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            
+        }
+        nav ul li a{
+            text-decoration: none; 
+            color: white; 
+            font-family: Courier New; 
+            font-size: 24px;
+        }
+        nav ul li a:hover{
+          color:rgb(0, 0, 0);
+        }
+        hr { 
+          display: block;
+          margin-top: 0.5em;
+          margin-bottom: 0.5em;
+          margin-left: auto;
+          margin-right: auto;
+          border-style: inset;
+          border-width: 1px;
+        } 
+        #img{
+            width: 100%;
+            height: auto;
+            margin-left: 20px;
+        }
+        table{
+            position: relative;
+            z-index: 2;
+            left: 50%;
+            transform: translate(-50%,-50%);
+            width: 60%;
+            border-collapse: collapse;
+            border-spacing: 0;
+            border-radius: 12px 12px 0 0;
+            box-shadow: 0 12px 5px rgba(32,32,32,.3);
+            background: #fafafa;
+            text-align: center;
+        }
+        th,td{
+            padding: 10px 15px;
+        }
+        th{
+            background: #ba68c8;
+            color: #fafafa;
+            text-transform: uppercase;
+            font-family: 'Robotp', sans-serif;
+        }
+        td{
+            font-family: 'Open Sans', sans-serif;
+        }
+    </style>  
+</head>
+
+<body>
+    <div class = "container">
+        <div class = "navbar">
+            <a href="Home page.html"><img src="Amrita-vishwa-vidyapeetham-color-logo.png" style="display: flex; width: 100%; height: 70;" alt="Amrita-logo"></a>
+            <nav>
+                <ul>
+                    <li> <a href="ACN.html"><button type="button">Home</a></button></li>
+                    <li><a href="Info.html"><button type="button">Info</a></button></li>
+                    <li><a href="Events.html"><button type="button">Events</a></button></li>
+                    <li><a href="Register.html"><button type="button">Register</a></button></li>&nbsp;&nbsp;&nbsp;&nbsp;
+                </ul>
+            </nav>
+        </div>
+        <hr>
+        <section class="about">
+            <div class="main">
+                <img src="acnbanner.jpg">
+                <div class="about-text">
+                    <h1>About</h1>
+                    <h4>Hello  Since 2004, the President of the US and Congress have declared October to be Cybersecurity Awareness Month,<br><br>
+                        This year’s campaign theme — “See Yourself in Cyber” Amrita has organized a set of 4 events for celebrating Cyber Month.</h4>
+                </div>
+            </div>
+        </section><br><br>
+        <div class="events">
+            <h1>Events : </h1><br><br>
+            <h2 align="center">
+                <div class="card con" style="color:rgb(207, 75, 75)">Conclave</div>
+                <div class="card ind" style="color:rgb(217, 73, 73)">Industry Meet</div>
+                <div class="card awr" style="color:rgb(211, 41, 41)">Cyber abhyan</div>
+            </h2>
+            <h2 align="center">
+            <div class="card hkt" style="color:rgb(202, 77, 77)">Hackathon</div>
+            <div class="card ctf" style="color:rgb(220, 105, 105)">CTF</div>
+            <div class="card web" style="color:rgb(203, 74, 74)">Web Development</div>
+            </h2>
+        </div>
+
+        <h1>Event Schedule : </h1><br><br>
+        <div id="img"><img src="amritacyber2222.jpg"></div>
+           
+       
+
+        <h1 align="center">Image Map</h1><br>
+        <p align="center"><img src="maps.jpg" alt="map.png" style="width: 70%; height: 50;" usemap="#img"></p>
+        <map name="img">
+            <area target="_blank" alt="industry meet" title="industry meet" href="industry meet.html" coords="567,281,250,220,210,200,68,220,210,435,78,500,538,115" shape="circle">
+            
+    </div>   
+</body>
+</html> 

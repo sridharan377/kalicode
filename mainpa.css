@@ -1,0 +1,35 @@
+.font{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 30px;
+    background-color:;
+    background-size: cover;
+    align-content: center;
+}
+.border{
+    border: 20px;
+    background-color: rgba(227, 216, 216, 0.685);
+    text-align: center;
+    margin-left: 200px;
+    margin-right: 200px;
+
+}
+.{
+   background-color: antiquewhite;
+}
+.rainbow {
+    animation: colorchange 45s; /* animation-name followed by duration in seconds*/ /* you could also use milliseconds (ms) or something like 2.5s */ 
+    animation-timing-function: ease-in-out; 
+    animation-iteration-count: infinite; 
+    animation-play-state: running;
+}
+
+@keyframes colorchange { 
+    0% { background: #E8F9FD; } 
+    14% { background: #79DAE8; } 
+    28% { background: #0AA1DD; } 
+    42% { background: #C4DDFF; } 
+    56% { background: #7FB5FF; }
+    70% { background: #42C2FF; } 
+    84% { background: #86C6F4; } 
+    100% { background: #66ffff;}
+}

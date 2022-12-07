@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+    <head>
+        <title>SSV Hostel Login</title>
+        <link rel="stylesheet" href="Login.css">
+        <script src="Login.js"></script>
+    </head>
+    <body class="bgm" onload="createCaptcha()">
+        <div class="border">
+            <h1>HOSTEL LOGIN</h1>
+            <label for="User_name"><h1>Username</h1></label>
+            <input type="text" name="username" id="User_name">
+            <label for="pass">
+            <h1>Password</h1></label>
+            <input type="password"  name="Password" id="pass"><br>
+            <br>
+            <br>
+                <form onsubmit="validateCaptcha()">
+                  <div id="captcha">
+                  </div>
+                  <input type="text" placeholder="captcha" id="cpatchaTextBox"/>
+                  <button type="submit">Submit</button>
+                </form>
+        </div>
